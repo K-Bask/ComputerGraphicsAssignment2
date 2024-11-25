@@ -1,0 +1,6 @@
+How to Use:
+1. Enable GD in php.ini by removing the ";" on the line ;extension=gd if it isn't removed already.
+2. Navigate to xampp/htdocs/Laravel
+3. Run server with php artisan serve on the terminal
+4. Link the storage with php artisan storage:link to ensure the images get saved correctly.
+5. Access localhost:8000, upload a file and convert with the available options.
